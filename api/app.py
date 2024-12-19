@@ -88,8 +88,3 @@ def download_all():
         t.join()
 
     return jsonify({"success": True}), 200
-
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
